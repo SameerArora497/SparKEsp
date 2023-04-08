@@ -24,7 +24,7 @@ PluginLoader is a tiny system to dynamically load apk in Android. I used it in m
 ## Credits
 - [Tinker](https://github.com/Tencent/tinker): Resource Patch
 - [Paranoid](https://github.com/MichaelRocks/paranoid): String Obfuscation
-- [PluginLoader]((https://github.com/kp7742/PluginLoader)): Stub PluginLoader
+- [PluginLoader](https://github.com/kp7742/PluginLoader): Stub PluginLoader
 - [ProcessPhoenix](https://github.com/JakeWharton/ProcessPhoenix): App Restart
 
 ## Technology Communication
