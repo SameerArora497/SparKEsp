@@ -1,1 +1,0 @@
-am start -n com.rekoo.pubgm/com.epicgames.ue4.SplashActivity
