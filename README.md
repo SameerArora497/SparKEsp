@@ -6,7 +6,6 @@ PluginLoader is a tiny system to dynamically load apk in Android. I used it in m
 - Only crafted plugin apks are supported(refer 'app' module)
 - Can load resources from plugin apk
 - Activity and Service are working
-- Tiny stub apk of 64kb for demo
 - It supports Android 5.0+
 
 ## Achieved So Far
