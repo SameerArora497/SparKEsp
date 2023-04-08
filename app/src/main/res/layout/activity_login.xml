@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:animateLayoutChanges="true"
+    android:layoutDirection="ltr">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <FrameLayout
+            android:background="@drawable/blue_bg"
+            android:layout_width="fill_parent"
+            android:layout_height="330.0dip"
+            android:backgroundTint="@color/sparkGrey">
+
+            <ImageView
+                android:id="@+id/banner"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="28dp"
+                android:layout_marginEnd="0dp"
+                android:paddingStart="50.0dip"
+                android:paddingEnd="50.0dip"
+                android:src="@drawable/game_blaster_banner"
+                app:tint="?colorAccent" />
+
+        </FrameLayout>
+
+        <RelativeLayout
+            android:background="@drawable/input_border"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="62.0dip"
+            android:layout_marginTop="40.0dip"
+            android:layout_marginRight="62.0dip">
+
+            <EditText
+                android:textSize="12.0sp"
+                android:id="@+id/username"
+                android:background="@color/transparent"
+                android:paddingTop="15.0dip"
+                android:paddingBottom="15.0dip"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:hint="Username"
+                android:maxLines="1"
+                android:inputType="textEmailAddress"
+                android:paddingStart="17.0dip"
+                android:layout_toEndOf="@id/pasteIcon" />
+
+            <ImageView
+                android:id="@+id/pasteIcon"
+                android:layout_width="15.0dip"
+                android:layout_height="15.0dip"
+                android:src="@drawable/ic_paste"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="17.0dip"
+                app:tint="@color/sparkYellow" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:background="@drawable/input_border"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="62.0dip"
+            android:layout_marginTop="12.699982dip"
+            android:layout_marginRight="62.0dip">
+
+            <EditText
+                android:textSize="12.0sp"
+                android:id="@+id/pass"
+                android:background="@color/transparent"
+                android:paddingTop="15.0dip"
+                android:paddingBottom="15.0dip"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:hint="Password"
+                android:maxLines="1"
+                android:inputType="textPassword"
+                android:paddingStart="17.0dip" />
+
+        </RelativeLayout>
+
+        <Button
+            android:textSize="12.0sp"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:id="@+id/loginBtn"
+            android:background="@drawable/yellow_rounded_back"
+            android:paddingTop="14.0dip"
+            android:paddingBottom="14.0dip"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="62.0dip"
+            android:layout_marginTop="18.699982dip"
+            android:layout_marginRight="62.0dip"
+            android:text="LOGIN" />
+
+        <ProgressBar
+            android:layout_gravity="center"
+            android:id="@+id/pgBar"
+            android:paddingTop="14.0dip"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:textSize="13.0sp"
+            android:typeface="monospace"
+            android:textColor="@color/sparkGrey"
+            android:layout_gravity="center"
+            android:id="@+id/pgBarText"
+            android:paddingTop="8.0dip"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Starting Daemon..." />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10.0dip"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true">
+
+        <ImageView
+            android:layout_gravity="center"
+            android:id="@+id/tgIcon"
+            android:layout_width="60.0dip"
+            android:layout_height="60.0dip"
+            android:layout_marginBottom="15.0dip"
+            android:src="@drawable/telegram"
+            android:scaleType="fitCenter"
+            app:tint="@color/sparkYellow" />
+
+        <TextView
+            android:textSize="13.0sp"
+            android:typeface="monospace"
+            android:textColor="@color/sparkYellow"
+            android:id="@+id/verText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAllCaps="true" />
+
+    </LinearLayout>
+
+</RelativeLayout>

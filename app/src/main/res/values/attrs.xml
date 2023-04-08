@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="MenuSwitch">
+        <attr name="title" format="string" />
+        <attr name="key" format="string" />
+        <attr name="entries" format="reference" />
+        <attr name="max" format="integer" />
+        <attr name="summary" format="string" />
+        <attr name="defaultValue" format="reference|string|integer|boolean|float" />
+    </declare-styleable>
+
+</resources>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/settings">
+
+    <PreferenceCategory android:title="@string/backup_restore">
+
+		<Preference
+            android:title="@string/settings_backup_title"
+            android:key="@string/settings_backup_key"
+            android:summary="@string/settings_backup_summary" />
+
+		<Preference
+            android:title="@string/settings_restore_title"
+            android:key="@string/settings_restore_key"
+            android:summary="@string/settings_restore_summary" />
+
+	</PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/backup_settings">
+
+        <CheckBoxPreference
+            android:title="@string/settings_backup_core_title"
+            android:key="@string/settings_backup_core_key"
+            android:summary="@string/settings_backup_core_summary"
+            android:defaultValue="true" />
+
+        <CheckBoxPreference
+            android:title="@string/settings_backup_items_title"
+            android:key="@string/settings_backup_items_key"
+            android:summary="@string/settings_backup_items_summary"
+            android:defaultValue="true" />
+
+        <CheckBoxPreference
+            android:title="@string/settings_backup_aimbot_title"
+            android:key="@string/settings_backup_aimbot_key"
+            android:summary="@string/settings_backup_aimbot_summary"
+            android:defaultValue="true" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/other_settings">
+
+        <CheckBoxPreference
+            android:title="@string/settings_memory_hacks_title"
+            android:key="@string/settings_memory_hacks_key"
+            android:summary="@string/settings_memory_hacks_summary" />
+
+        <CheckBoxPreference
+            android:title="@string/settings_memory_aimbot_title"
+            android:key="@string/settings_memory_aimbot_key"
+            android:summary="@string/settings_memory_aimbot_summary" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

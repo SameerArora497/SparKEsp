@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:background="@color/sparkGrey"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <q.rorbin.verticaltablayout.VerticalTabLayout
+        android:id="@+id/item_tab"
+        android:background="@color/darkgray"
+        android:layout_width="110.0dip"
+        android:layout_height="fill_parent"
+        app:indicator_color="@color/black"
+        app:indicator_gravity="fill"
+        app:tab_mode="fixed" />
+
+    <com.sparkskillz.widgets.NoScrollViewPager
+        android:id="@+id/item_viewpager"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+
+</LinearLayout>

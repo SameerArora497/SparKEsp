@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme" parent="@style/Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:navigationBarColor">@color/transparent</item>
+        <item name="colorAccent">@color/sparkYellow</item>
+        <item name="colorPrimary">@color/sparkGrey</item>
+        <item name="colorPrimaryDark">@color/sparkGrey</item>
+    </style>
+
+    <style name="AppTheme.LoginScreen" parent="@style/AppTheme">
+        <item name="android:statusBarColor">@color/sparkGrey</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.MainScreen" parent="@style/AppTheme">
+        <item name="android:statusBarColor">@color/sparkGrey</item>
+        <item name="android:navigationBarColor">@color/sparkGrey</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar" parent="@style/AppTheme">
+        <item name="android:statusBarColor">@color/transparent</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.SettingScreen" parent="@style/AppTheme" />
+
+</resources>

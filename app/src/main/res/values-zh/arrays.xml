@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="execute_list0">
+        <item>根模式</item>
+        <item>容器模式</item>
+    </array>
+    <array name="execute_list1">
+        <item>需要已解鎖 root 權限的設備</item>
+        <item>在非 root 設備中運行作弊, 您將應用程序克隆到修改後的虛擬環境中</item>
+    </array>
+    <!--main_list-->
+    <array name="main_list">
+        <item>设置</item>
+        <item>登出</item>
+    <!--<item>幫助</item>-->
+    <item>GetAutoskillz.com</item>
+</array>
+<!--help-->
+    <array name="help_list0">
+        <item>PUBGM DEMOND LORD</item>
+        <item>此作弊與兩者兼容 PUBG Mobile 和 PUBG Thrilling Battleground (CN).</item>
+        <item>您的手機必須植根才能使用根模式.\n
+            \u0020\u0020●\u0020\u0020先運行遊戲\n
+            \u0020\u0020●\u0020\u0020等到你进入游戏大厅（在那里你\n\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020看到你的角色）\n
+            \u0020\u0020●\u0020\u0020運行作弊並點擊開始\n</item>
+        <!--<item>非root模式要求您首先將游戲克隆到兼容且未被檢測到的容器應用程序中.\n
+            \u0020\u0020●\u0020\u0020查找并安装兼容且未被检测到的\n\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020容器应用\n
+            \u0020\u0020●\u0020\u0020将作弊和游戏添加到\n\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020容器应用程序\n
+            \u0020\u0020●\u0020\u0020從容器啟動遊戲\n
+            \u0020\u0020●\u0020\u0020等到你进入游戏大厅（在那里你\n\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020看到你的角色）\n
+            \u0020\u0020●\u0020\u0020運行作弊並點擊開始\n</item>
+        <item>應用程序在單擊登錄時顯示無效的 HWID 或憑據</item>
+        <item>仔細檢查您輸入的用戶名和密碼. 如果您經常更換設備，您的帳戶可能會被鎖定. 請聯繫經銷商重置您的帳戶.</item>
+        <item>這意味著您的帳戶已過期. 請聯繫經銷商更新您的帳戶.</item>
+        <item>作弊覆蓋運行時不允許截圖. 如果要截屏，請先停止疊加</item>-->
+    </array>
+    <array name="help_list1">
+        <item></item>
+        <item>根模式說明</item>
+        <!--<item>非root模式说明</item>
+        <item>常问问题</item>
+        <item></item>
+        <item>應用程序點擊登錄時顯示沒有訂閱</item>
+        <item>我不能截圖.</item>-->
+        <item></item>
+    </array>
+</resources>

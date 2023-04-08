@@ -1,0 +1,1 @@
+am start -n com.tencent.ig/com.epicgames.ue4.SplashActivity

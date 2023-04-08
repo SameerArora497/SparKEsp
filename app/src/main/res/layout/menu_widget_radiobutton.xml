@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:gravity="center_vertical"
+    android:background="?android:selectableItemBackground"
+    android:focusable="true"
+    android:clipToPadding="false"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:baselineAligned="false"
+    android:minHeight="?android:listPreferredItemHeightSmall"
+    android:paddingStart="?android:listPreferredItemPaddingLeft"
+    android:paddingEnd="?android:listPreferredItemPaddingRight"
+    tools:ignore="MissingDefaultResource">
+
+    <RelativeLayout
+        android:paddingTop="16.0dip"
+        android:paddingBottom="16.0dip"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.0">
+
+        <TextView
+            android:textAppearance="?android:textAppearanceListItem"
+            android:textColor="@color/white"
+            android:ellipsize="marquee"
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+    <RadioButton
+        android:layout_gravity="center"
+        android:id="@+id/checkbox"
+        android:background="@null"
+        android:focusable="false"
+        android:clickable="false"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:paddingStart="16.0dip"
+        android:paddingEnd="0.0dip" />
+
+</LinearLayout>

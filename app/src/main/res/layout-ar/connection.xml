@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white_text">
+
+    <ImageView
+        android:id="@+id/iconlogos"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:scaleX="1.5"
+        android:scaleY="1.5"
+        android:src="@drawable/flow_logo"></ImageView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/iconlogos"
+        android:orientation="vertical"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_marginTop="60dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/username"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/user_name"
+                android:textColor="@color/black"
+                android:textColorHint="@color/white_text_info"
+                android:textSize="@dimen/email_password"
+                android:theme="@style/EditTextTheme"
+                android:gravity="right"></EditText>
+
+            <ImageView
+                android:id="@+id/paste"
+                android:layout_width="24dp"
+                android:layout_height="22dp"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/copy_paste"
+                android:tint="@color/black"></ImageView>
+
+            <ImageView
+                android:id="@+id/clear"
+                android:layout_width="24dp"
+                android:layout_height="22dp"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/copy_clear"
+                android:tint="@color/black"></ImageView>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+            <EditText
+                android:id="@+id/password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:hint="@string/password"
+                android:inputType="textPassword"
+                android:textColor="@color/black"
+                android:textColorHint="@color/white_text_info"
+                android:textSize="@dimen/email_password"
+                android:theme="@style/EditTextTheme"></EditText>
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/loginbutton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:padding="15dp"
+            android:text="@string/login_button"
+            android:textAllCaps="true"
+            android:textColor="@color/black"></Button>
+
+        <ProgressBar
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/progress"
+            android:visibility="gone"
+            android:indeterminateTint="@color/black"/>
+
+        <TextView
+            android:id="@+id/changeexectuion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:text="@string/change_executution"
+            android:textColor="@color/black"
+            android:textSize="@dimen/help_autication"
+            android:background="@drawable/ripple_effect"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"></TextView>
+
+        <TextView
+            android:id="@+id/gotohelp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:text="@string/help"
+            android:textColor="@color/white_text_info"
+            android:textSize="@dimen/help_autication"
+            android:background="@drawable/ripple_effect"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:visibility="gone"></TextView>
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/tele"
+        android:id="@+id/teleg"
+        android:layout_above="@+id/text"
+        android:layout_centerHorizontal="true"
+        android:visibility="gone">
+    </ImageView>
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="20dp"
+        android:text="@string/link_web"
+        android:textColor="@color/black"
+        android:textSize="@dimen/cheat_center"
+        android:visibility="gone"></TextView>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/flow_logo_2"
+        android:id="@+id/openLink"></ImageView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/weblink"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:text="@string/link_web"
+            android:textColor="@color/accent_text"
+            android:textSize="@dimen/plugin_loader_version"
+            android:textAllCaps="true"></TextView>
+
+        <TextView
+            android:id="@+id/loaderversion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/loader_version_login"
+            android:textColor="@color/white_text_info"
+            android:textSize="@dimen/plugin_loader_version"></TextView>
+
+        <TextView
+            android:id="@+id/pluginversion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/plugin_version_login"
+            android:textColor="@color/white_text_info"
+            android:textSize="@dimen/plugin_loader_version"></TextView>
+    </LinearLayout>
+</RelativeLayout>

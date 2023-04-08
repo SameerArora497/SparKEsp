@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">DemondLord</string>
+    <string name="execute_heder">选择执行模式</string>
+    <!--login-->
+    <string name="user_name">用戶名</string>
+    <string name="password">密碼</string>
+    <string name="login_button">登錄</string>
+    <string name="help">幫助</string>
+    <string name="change_executution">更改執行模式</string>
+    <string name="link_web"><u>Autoskillz.com</u></string>
+    <!--login_process-->
+    <string name="authentication">認證...</string>
+    <string name="starting_daemon">啟動守護進程</string>
+    <string name="ready">準備好.</string>
+    <!--main-->
+    <string name="start">開始作弊</string>
+    <string name="stop">停止作弊</string>
+    <string name="logo1">First Logo</string>
+    <string name="logo2">Bypass [Click ON Lobby]</string>
+    <string name="logo3">START ESP</string>
+    <string name="bpprocess">请稍候，旁路正在处理中</string>
+    <string name="BlockAim">Aimbot 正在维护 PUBG GLOBAL 版本</string>
+    <string name="device">设备信息</string>
+    <!--other-->
+    <!--execution_alert-->
+    <string name="tittle_exe">獲取root權限...</string>
+    <string name="message_exe">如果您看到提示對話框，請單擊允許</string>
+    <string name="exe_cancel">取消</string>
+    <!--download_alert-->
+    <string name="tittle_down">需要下載其他數據</string>
+    <string name="message_down">必須下載其他數據才能使用此程序. 如果您使用的是移動網絡，這可能會產生額外費用</string>
+    <string name="down_exit">出口</string>
+    <string name="down_download">現在就下載</string>
+    <string name="down_process">下載...</string>
+    <!--logout_alert-->
+    <string name="message_log_out">您確定要退出?</string>
+    <string name="yes_log_out">是的</string>
+    <string name="cancel_log_out">取消</string>
+    <!--version_loader/app_login-->
+    <string name="loader_version_login">GM2. 裝載機版本: 1.0</string>
+    <string name="plugin_version_login">應用版本: 1.0 核心版本： n/a</string>
+    <!--version_loader/app_main-->
+    <string name="loader_version_main">GM2. 裝載機版本: 1.0</string>
+    <string name="plugin_version_main">應用版本: 1.0 核心版本: 1.0-惡魔</string>
+    <!--login_error-->
+    <string name="auth_error">驗證錯誤：服務器通信錯誤</string>
+    <string name="key_error">身份驗證錯誤：代碼 1：無效的帳戶憑據</string>
+    <string name="key_expired">沒有訂閱</string>
+    <string name="already">作弊一切准备就绪</string>
+    <string name="nothing">未检测到任何游戏正在运行</string>
+</resources>

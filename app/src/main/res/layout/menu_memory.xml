@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/darkgray"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <com.sparkskillz.widgets.MenuCategory
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            app:title="@string/memory_hack_title"
+            app:summary="@string/memory_hack_summary" />
+
+        <com.sparkskillz.widgets.MenuSwitch
+            android:id="@+id/less_recoil"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            app:title="@string/prefs_less_recoil_title"
+            app:key="@string/prefs_less_recoil_key" />
+
+        <com.sparkskillz.widgets.MenuSwitch
+            android:id="@+id/bullet_track"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            app:title="@string/prefs_bullet_track_title"
+            app:key="@string/prefs_bullet_track_key" />
+
+        <com.sparkskillz.widgets.MenuSwitch
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            app:title="@string/prefs_sit_scope_title"
+            app:key="@string/prefs_sit_scope_key" />
+
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>

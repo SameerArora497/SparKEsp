@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center_vertical"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:baselineAligned="false"
+    android:minHeight="?android:listPreferredItemHeightSmall"
+    android:paddingStart="?android:listPreferredItemPaddingLeft"
+    android:paddingEnd="?android:listPreferredItemPaddingRight">
+
+    <RelativeLayout
+        android:paddingTop="8.0dip"
+        android:paddingBottom="8.0dip"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.0">
+
+        <TextView
+            android:textAppearance="?android:textAppearanceListItem"
+            android:textColor="@color/white"
+            android:ellipsize="marquee"
+            android:id="@+id/title"
+            android:fadingEdge="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:textAppearance="?android:textAppearanceListItemSecondary"
+            android:textSize="12.0sp"
+            android:textColor="@color/white"
+            android:id="@+id/summary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/title"
+            android:layout_alignStart="@id/title" />
+
+        <LinearLayout
+            android:clipChildren="false"
+            android:clipToPadding="false"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4.0dip"
+            android:layout_below="@id/summary"
+            android:layout_alignStart="@id/title">
+
+            <SeekBar
+                android:id="@+id/seekbar"
+                android:focusable="false"
+                android:clickable="false"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:paddingStart="0.0dip"
+                android:paddingEnd="30.0dip" />
+
+            <TextView
+                android:textColor="@color/white"
+                android:ellipsize="marquee"
+                android:gravity="end|center"
+                android:id="@+id/seekbar_value"
+                android:fadingEdge="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:singleLine="true"
+                android:fontFamily="sans-serif-condensed" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,13 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:id="@+id/camreacontrol"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:background="@drawable/camera_circle">
+    </RelativeLayout>
+
+</FrameLayout>

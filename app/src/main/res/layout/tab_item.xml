@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <ImageView
+            android:layout_gravity="center"
+            android:id="@+id/imgView"
+            android:layout_width="30.0dip"
+            android:layout_height="30.0dip"
+            android:layout_marginTop="4.0dip" />
+
+        <TextView
+            android:textColor="@color/white"
+            android:id="@+id/titleTv"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2.0dip"
+            android:layout_marginBottom="2.0dip"
+            android:textAlignment="center" />
+
+    </LinearLayout>
+
+</RelativeLayout>

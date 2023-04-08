@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10.0dip"
+    app:cardBackgroundColor="@color/sparkGrey"
+    app:cardCornerRadius="15.0dip"
+    app:cardPreventCornerOverlap="false">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <RelativeLayout
+            android:id="@+id/title_bar"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:paddingTop="4.0dip"
+                android:paddingBottom="4.0dip"
+                android:text="@string/sparkskillz"
+                android:textColor="@color/white"
+                android:textSize="20.0sp"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <q.rorbin.verticaltablayout.VerticalTabLayout
+                android:id="@+id/main_tab"
+                android:background="@color/sparkGrey"
+                android:layout_width="75.0dip"
+                android:layout_height="fill_parent"
+                app:indicator_color="@color/sparkYellow"
+                app:indicator_corners="5.0dip"
+                app:indicator_gravity="fill" />
+
+            <androidx.viewpager.widget.ViewPager
+                android:id="@+id/main_viewpager"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

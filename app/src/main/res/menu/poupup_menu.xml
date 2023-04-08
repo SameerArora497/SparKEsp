@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/one"
+        android:title="GLOBAL" />
+    <item
+        android:id="@+id/two"
+        android:title="KOREA"/>
+    <item
+        android:id="@+id/three"
+        android:title="VIETNAM"/>
+    <item
+        android:id="@+id/four"
+        android:title="TAIWAN"/>
+    <item
+        android:id="@+id/five"
+        android:title="BGMI"/>
+</menu>

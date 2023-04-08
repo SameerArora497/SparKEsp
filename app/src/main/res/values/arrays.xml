@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="prefs_aimbot_mode_entries">
+        <item>@string/firing</item>
+        <item>@string/scoping</item>
+        <item>@string/firing_or_scoping</item>
+    </string-array>
+    <string-array name="prefs_aimbot_priority_entries">
+        <item>@string/crosshair</item>
+        <item>@string/distance</item>
+    </string-array>
+    <string-array name="prefs_aimbot_status_entries">
+        <item>@string/disable</item>
+        <item>@string/memory_aimbot</item>
+        <item>@string/touch_aimbot</item>
+    </string-array>
+    <string-array name="prefs_aimbot_target_entries">
+        <item>@string/head</item>
+        <item>@string/neck</item>
+        <item>@string/chest</item>
+        <item>@string/body</item>
+    </string-array>
+
+    <string-array name="prefs_render_fps_entries">
+        <item>30 FPS</item>
+        <item>45 FPS</item>
+        <item>60 FPS</item>
+        <item>90 FPS</item>
+        <item>120 FPS</item>
+        <item>144 FPS</item>
+    </string-array>
+
+</resources>

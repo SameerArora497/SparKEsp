@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/darkgray"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <com.sparkskillz.widgets.MenuSwitch
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            app:title="@string/prefs_esp_cutout_title"
+            app:key="@string/prefs_esp_cutout_key"
+            app:defaultValue="true" />
+
+        <com.sparkskillz.widgets.MenuSwitch
+            android:id="@+id/hideIcon"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            app:title="@string/prefs_hide_overlay_title"
+            app:key="@string/prefs_hide_overlay_key"
+            app:summary="@string/prefs_hide_overlay_summary" />
+
+        <com.sparkskillz.widgets.MenuCategory
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            app:title="@string/render_distance" />
+
+        <com.sparkskillz.widgets.MenuSeekBar
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:max="200"
+            app:title="@string/prefs_throwable_distance_title"
+            app:key="@string/prefs_throwable_distance_key"
+            app:defaultValue="60" />
+
+        <com.sparkskillz.widgets.MenuRadioGroup
+            app:entries="@array/prefs_render_fps_entries"
+            android:id="@+id/renderFPS"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            app:title="@string/prefs_render_fps_title"
+            app:key="@string/prefs_render_fps_key"
+            app:defaultValue="2" />
+
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>
