@@ -26,4 +26,4 @@ PluginLoader is a tiny system to dynamically load apk in Android. I used it in m
 - [ProcessPhoenix](https://github.com/JakeWharton/ProcessPhoenix): App Restart
 
 ## Technology Communication
-> Email: patel.kuldip91@gmail.com
+> Email: sameerarora497@gmail.com
